@@ -47,7 +47,7 @@ function randomSquare() {
   state.values.hitPosition = randomSquare.id;
 }
 
-// Adicionado - Função se perder vida e recarregar se necessário
+// Adicionado - Função para perder vida e recarregar se necessário
 function loseLife() {
   state.values.lives--;
   state.view.lives.textContent = `x${state.values.lives}`;
